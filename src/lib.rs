@@ -63,14 +63,14 @@ pub fn process_file(file_reader: FileReader) -> JsValue {
     }
 }
 
-fn _render(t: Torrent) {
+fn _check_trackers() {
     let window = web_sys::window().expect("no global `window` exists");
     let document = window.document().expect("should have a document on window");
     let body = document.body().expect("document should have a body");
 
     // Manufacture the element we're gonna append
-    let val = document.create_element("p").unwrap();
-    val.set_text_content(Some(&t.info.name));
+    // let val = document.create_element("p").unwrap();
+    // val.set_text_content(Some(&t.info.name));
 
-    body.append_child(&val).unwrap();
+    // body.append_child(&val).unwrap();
 }

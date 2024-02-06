@@ -3,9 +3,9 @@ import { process_file, humanize_size, timestamp_to_string } from 'wasm-torrentfi
 import Mustache from 'mustache';
 
 let template = `
-    <div>
-        <table>
-            <tbody>
+    <div class='mt-5'>
+        <table class='table table-hover table-striped'>
+            <tbody class=''>
                 <tr><th>General Info</th></tr>
                 <tr><td>Name</td><td>{{file_data.info.name}}</td></tr>
                 <tr><td>Type</td><td>{{#extra.is_single}}Single File{{/extra.is_single}}{{^extra.is_single}}Multiple Files{{/extra.is_single}}</td></tr>
