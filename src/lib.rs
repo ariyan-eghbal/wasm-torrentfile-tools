@@ -1,17 +1,17 @@
-#[macro_use]
-extern crate serde_derive;
+// #[macro_use]
+// extern crate serde_derive;
 
 extern crate web_sys;
 
-mod torrent;
 mod utils;
 
 use chrono::{DateTime, NaiveDateTime, Utc};
+use libdottorrent::*;
 use serde_json::json;
-use torrent::*;
 use wasm_bindgen::prelude::*;
 use web_sys::{js_sys::Uint8Array, FileReader};
 
+#[allow(unused_macros)]
 macro_rules! log {
     ( $( $t:tt )* ) => {
         web_sys::console::log_1(&format!( $( $t )* ).into());
@@ -66,7 +66,7 @@ pub fn process_file(file_reader: FileReader) -> JsValue {
 fn _check_trackers() {
     let window = web_sys::window().expect("no global `window` exists");
     let document = window.document().expect("should have a document on window");
-    let body = document.body().expect("document should have a body");
+    let _body = document.body().expect("document should have a body");
 
     // Manufacture the element we're gonna append
     // let val = document.create_element("p").unwrap();

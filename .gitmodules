@@ -1,0 +1,3 @@
+[submodule "dottorrent"]
+	path = dottorrent
+	url = https://github.com/ariyan-eghbal/dottorrent.git
