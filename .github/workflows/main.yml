@@ -18,8 +18,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'v18.19.1'
-      - run: npm ci
+      - run: npm install
+        working-directory: www/dist/
       - run: npm run build
+        working-directory: www/dist/
       - run: ls -la www/dist/
       - name: Push
         uses: s0/git-publish-subdir-action@develop
