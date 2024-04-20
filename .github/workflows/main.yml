@@ -18,9 +18,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'v18.19.1'
-      - run: npm install
+      - run: NODE_OPTIONS=--openssl-legacy-provider npm install
         working-directory: www/
-      - run: npm run build
+      - run: NODE_OPTIONS=--openssl-legacy-provider npm run build
         working-directory: www/
       - run: ls -la www/dist/
       - name: Push
