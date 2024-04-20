@@ -52,47 +52,47 @@
 /******/ 	function promiseResolve() { return Promise.resolve(); }
 /******/
 /******/ 	var wasmImportObjects = {
-/******/ 		"../pkg/wasm_torrentfile_tools_bg.wasm": function() {
+/******/ 		"../pkg/libwasm_torrentfile_tools_bg.wasm": function() {
 /******/ 			return {
-/******/ 				"./wasm_torrentfile_tools_bg.js": {
+/******/ 				"./libwasm_torrentfile_tools_bg.js": {
 /******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_new_abda76e883ba8a5f": function() {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_new_abda76e883ba8a5f"]();
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_new_abda76e883ba8a5f"]();
 /******/ 					},
 /******/ 					"__wbg_stack_658279fe44541cf6": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_stack_658279fe44541cf6"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_stack_658279fe44541cf6"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_error_f851667af71bcfc6": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_error_f851667af71bcfc6"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_error_f851667af71bcfc6"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_result_e515a9bf8390ef47": function(p0i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_result_e515a9bf8390ef47"](p0i32);
+/******/ 					"__wbg_result_77ceeec1e3a16df7": function(p0i32) {
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_result_77ceeec1e3a16df7"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_buffer_5d1b598a01b41a42": function(p0i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_buffer_5d1b598a01b41a42"](p0i32);
+/******/ 					"__wbg_buffer_12d079cc21e14bdb": function(p0i32) {
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_buffer_12d079cc21e14bdb"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_new_ace717933ad7117f": function(p0i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_new_ace717933ad7117f"](p0i32);
+/******/ 					"__wbg_new_63b92bc8671ed464": function(p0i32) {
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_new_63b92bc8671ed464"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_set_74906aa30864df5a": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_set_74906aa30864df5a"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_set_a47bac70306a19a7": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_set_a47bac70306a19a7"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_length_f0764416ba5bb237": function(p0i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbg_length_f0764416ba5bb237"](p0i32);
+/******/ 					"__wbg_length_c20a40f15020d68a": function(p0i32) {
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbg_length_c20a40f15020d68a"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_debug_string": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_memory": function() {
-/******/ 						return installedModules["../pkg/wasm_torrentfile_tools_bg.js"].exports["__wbindgen_memory"]();
+/******/ 						return installedModules["../pkg/libwasm_torrentfile_tools_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -185,7 +185,7 @@
 /******/
 /******/ 		// Fetch + compile chunk loading for webassembly
 /******/
-/******/ 		var wasmModules = {"1":["../pkg/wasm_torrentfile_tools_bg.wasm"]}[chunkId] || [];
+/******/ 		var wasmModules = {"1":["../pkg/libwasm_torrentfile_tools_bg.wasm"]}[chunkId] || [];
 /******/
 /******/ 		wasmModules.forEach(function(wasmModuleId) {
 /******/ 			var installedWasmModuleData = installedWasmModules[wasmModuleId];
@@ -195,7 +195,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/wasm_torrentfile_tools_bg.wasm":"9ec82109c0fe98cac5d8"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/libwasm_torrentfile_tools_bg.wasm":"bb2dd2d75ae1d4a45ada"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
