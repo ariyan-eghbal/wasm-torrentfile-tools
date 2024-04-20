@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - run: ls -la 
+        with:
+          submodules: 'true'
       - uses: jetli/wasm-pack-action@v0.4.0
       - run: wasm-pack build
-      
+      - run: ls -la
+    
